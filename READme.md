@@ -1,2 +1,1 @@
-istighfar count
-wanker
+
