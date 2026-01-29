@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Page layout */
+body {
+  background-color: #f9fbff;
+  color: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card container */
+.container {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Headings */
+h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+/* Text */
+p {
+  color: #475569;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+/* Counter number */
+.counter {
+  font-size: 48px;
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 25px;
+}
+
+/* Buttons / links */
+a.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+a.button:hover {
+  background-color: #1e40af;
+}

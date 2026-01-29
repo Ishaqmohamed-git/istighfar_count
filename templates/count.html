@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Istighfar Count</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Istighfar Count</h1>
+
+    <div class="counter">
+      {{ count }}
+    </div>
+
+    <a href="/count" class="button">+1 Istighfar</a>
+  </div>
+</body>
+</html>
+
